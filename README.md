@@ -1,1 +1,4 @@
-# Credit-Risk-Analytics-Logistic-Regression-Model-
+Predict the future payment behavior of existing debtors in order to identify/isolate bad customers to direct more attention and assistance to them, thereby reducing the likelihood that these debtors will later become a problem.
+The datasets consists of cudtomer details such as education, Tenure with current employer (in years), income, address, debt to income ratio, credit to debt ratio, other debts, Customer defaulted in the past (1= defaulted, 0=Never defaulted).
+EDA and data cleaning performed on given dataset after importing required packages to build model. Separate the new and existing customer and model build on existing customers then using this model defaulter custmers predicted on new customers.
+Steps in model building: i) Train-Test-Split ii) Variables reduction using Somars'd score iii) Multi-collinearity chech using VIF             iv) Define and fit the model v) Checking model accuracy vi) get best cut-off to get final predictions vii) Model validation using decile analysis viii) Predictions on the new customer data 
