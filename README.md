@@ -1,4 +1,11 @@
-Predict the future payment behavior of existing debtors in order to identify/isolate bad customers to direct more attention and assistance to them, thereby reducing the likelihood that these debtors will later become a problem.
-The datasets consists of cudtomer details such as education, Tenure with current employer (in years), income, address, debt to income ratio, credit to debt ratio, other debts, Customer defaulted in the past (1= defaulted, 0=Never defaulted).
-EDA and data cleaning performed on given dataset after importing required packages to build model. Separate the new and existing customer and model build on existing customers then using this model defaulter custmers predicted on new customers.
-Steps in model building: i) Train-Test-Split ii) Variables reduction using Somars'd score iii) Multi-collinearity chech using VIF             iv) Define and fit the model v) Checking model accuracy vi) get best cut-off to get final predictions vii) Model validation using decile analysis viii) Predictions on the new customer data 
+Developed a predictive model to identify customer defaulters, achieving an accuracy rate of approximately 78%. Successfully predicted 54 defaulters out of 150 new customers.
+Separate the new and existing customers and then build a model based on the existing customer data. Use this model to predict defaulters among the new customers.
+Steps in model building:
+i) Perform Train-Test-Split
+ii) Reduce variables using Somers'd score
+iii) Check for multi-collinearity using VIF
+iv) Define and fit the model
+v) Assess model accuracy
+vi) Determine the best cut-off point for final predictions
+vii) Validate the model using decile analysis
+viii) Make predictions on the new customer data
